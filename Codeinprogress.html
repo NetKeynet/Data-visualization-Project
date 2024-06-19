@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>A1 - MAPBOX </title>
+  <meta charset="utf-8">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-image: url("https://i.pinimg.com/564x/70/ca/fa/70cafad36188740e46501c99b0761995.jpg");
+      background-size: cover;
+      padding: 20px 0;
+      text-align: center;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      background-color: #A9A9A9;
+    }
+
+    .wrapper {
+      max-width: 940px;
+      margin: 20px auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .courses {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    .article {
+      margin-bottom: 20px;
+    }
+
+    . hrgroup {
+      display: flex; 
+      flex-direction: column;
+
+    }
+
+
+    figure {
+      margin: 0;
+      text-align: left;
+    }
+
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    footer {
+      background-color: #aeaca8;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+     .legend-figure {
+      margin-top: 10px; /* Adjust this value as needed to move the legend up or down */
+      margin-left: 0; /* Align to the left */
+       }
+
+    @media screen and (max-width: 768px) {
+      nav a {
+        padding: 14px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="codeinprogress.html">Project Page</a>
+    <a href="code2.html">Infographic</a>
+    <a href="citation.html">Citations</a>
+  </nav>
+
+  <div class="wrapper">
+    <div class="courses">
+      <div class="article">
+        <div class="hgroup">
+          <h2>Project Map</h2>
+
+        <figure>
+        <iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/kyyne/clxc3dk1504ly01qp9ad932mr.html?title=false&access_token=pk.eyJ1Ijoia3l5bmUiLCJhIjoiY2x3MnNtNGo0MDBpOTJpdDk0M3NlYzFrcCJ9.YIOIJGTU3-JcMjXNgTnyLA&zoomwheel=false#9.87/43.6859/-79.3231" title="Assignment 1 - Data&Society" style="border:none;"> title="Streets"></iframe>
+         </figure>
+
+         <figure class="legend-figure">
+            <img src="images/legend.png" alt="Legend">
+          </figure>
+
+
+         
+          <h3>Public Art and Places of Interest/Attraction in Toronto by Wards</h3>
+  
+          <p>
+            This map has been created using Mapbox Studio. It outlines two key datasets: Location of public arts installation and various places of interest / attraction in Toronto. This map is designed to explore the correlation between the amount of art installations and the amount of places of interest across various wards in Toronto. I used distinct icons to differentiate between public arts (represented by pink art icons) and places of interest (represented by the blue place icons). This is to allow for an immediate and clear understanding of the data depicted in the map.
+            </p>
+
+            <p>  
+
+            After analysing, graphing and mapping the data, we can see that there is a high concentration of public art installations and places of interest in downtown Toronto, mainly in the following wards: Spadina-Fort York and Toronto Centre. While the map reveals a high concentration of both public art and places of interest in the downtown area, there are also a spread of public art and place of interest throughout the suburban wards, though at a lower density compared to the downtown area. This indicates the effort made to ensure that artistic experience is accessible to all residents of Toronto and not just the one in downtown. 
+          </p>
+
+          <p>
+
+            This research can be used by urban planners to identify areas that may need additional cultural and artistic investment. For instance, wards with fewer icons could be the target of new public arts installations or development of new places of interest to increase the balance of cultural resources across the city. Tourism board could also benefit from this map to develop marketing strategies that highlight the cultural / artistic areas to promote wards with a high concentration of public arts and places of interest. This can also result in a boost of the local economies.
+            </p> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    &copy; 2024 Keyrane Kouame 
+  </footer>
+</body>
+</html>
+
+
